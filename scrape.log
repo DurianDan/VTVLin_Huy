@@ -552,3 +552,5 @@ Stacktrace:
 17360-INFO-====== WebDriver manager ======
 17360-INFO-Get LATEST chromedriver version for google-chrome 111.0.5563
 17360-INFO-Driver [C:\Users\Admin\.wdm\drivers\chromedriver\win32\111.0.5563\chromedriver.exe] found in cache
+17360-INFO-Trying to reah the website https://vtv.vn/xa-hoi/ha-noi-duoc-binh-chon-la-diem-den-an-toan-cho-nu-du-khach-20230309111042153.htm
+17360-INFO-Trying to reah the website https://vtv.vn/xa-hoi/ha-noi-duoc-binh-chon-la-diem-den-an-toan-cho-nu-du-khach-20230309111042153.htm
