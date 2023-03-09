@@ -534,3 +534,21 @@ Stacktrace:
 12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=không&page=51
 12340-INFO-Getting articles info
 12340-INFO-Done scraping article from search word không
+27424-ERROR-There isn't any running driver
+27424-INFO-Driver will perform option: --incognito
+27424-INFO-Driver will have page_load_strategy: eager
+27424-WARNING-There isn't any running driver to quit()
+27424-WARNING-There isn't any running driver to quit()
+27424-INFO-====== WebDriver manager ======
+27424-INFO-Get LATEST chromedriver version for google-chrome 111.0.5563
+27424-INFO-There is no [win32] chromedriver for browser 111.0.5563 in cache
+27424-INFO-About to download new driver from https://chromedriver.storage.googleapis.com/111.0.5563.64/chromedriver_win32.zip
+27424-INFO-Driver has been saved in cache [C:\Users\Admin\.wdm\drivers\chromedriver\win32\111.0.5563]
+17360-ERROR-There isn't any running driver
+17360-INFO-Driver will perform option: --incognito
+17360-INFO-Driver will have page_load_strategy: eager
+17360-WARNING-There isn't any running driver to quit()
+17360-WARNING-There isn't any running driver to quit()
+17360-INFO-====== WebDriver manager ======
+17360-INFO-Get LATEST chromedriver version for google-chrome 111.0.5563
+17360-INFO-Driver [C:\Users\Admin\.wdm\drivers\chromedriver\win32\111.0.5563\chromedriver.exe] found in cache
