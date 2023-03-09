@@ -5,6 +5,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.service import Service
 
 # type casting in the function
+from selenium.webdriver.remote.webelement import WebElement
 from selenium.webdriver.chrome.webdriver import WebDriver 
 
 # Error handling
@@ -151,26 +152,34 @@ class driverHelper(seleniumHelper):
     def forceFindElement(self,
                      by:By,
                      element_string:str,
+                     element_as_finder:WebElement | None = None,
                      retry:int=10,
                      retry_interval:int=1,
+                     find_element_message:str|None=None
                      ):
         '''
         Retry until getting the element\n
         `elment_string` : E.g. "./html/body/div\n
         `by` : Method for the driver to get the element: \n
         `retry` : number of retries\n
+        `element_as_finder` : using an element to find sub-element, instead of driver\n
         `retry_interval` : Seconds between each retry\n
         if `vpn_provider` is not empty (empty by default), `forceFindElement()` will change vpn after each retry   
         '''
-        if not self.checkDriver()["driverExist"]:
-            raise ValueError("Can't find element without a proper driver")
+        self.checkDriver()["driverExist"]
         
         retry_record = 0
         last_err = ""
-        logging.info(f"Trying to get the element {element_string}")
+        if find_element_message:
+            logging.info(f"Trying to get the element {element_string}")
+
         for _ in range(retry):
             try:
-                return self.driver.find_element(by=by, value=element_string)
+                if type(element_as_finder) == WebElement:
+                    return element_as_finder.find_element(by=by, value=element_string)
+                else:
+                    return self.driver.find_element(by=by, value=element_string)
+                
             except self.element_exception as err:
                 last_err = err
                 pass
@@ -181,7 +190,7 @@ class driverHelper(seleniumHelper):
                 last_err = err
                 self.reopenDriver(reconnect_vpn=True,retry_count=retry_record)
             retry_record += 1
-            logging.error(f"Retrying getting element for the {retry_record} time(s), while handling whis error :{last_err}")
+            logging.error(f"Retrying getting element for the {retry_record} time(s), while handling this error :{last_err}")
             time.sleep(retry_interval)
         raise ValueError(f"Cant find the element after {retry_record} retries, last error was {last_err}")
 
@@ -204,7 +213,7 @@ class driverHelper(seleniumHelper):
         
         retry_record = 0
         last_err = ""
-        logging.info(f"Trying to reah the website {url}")
+        logging.info(f"Trying to reach the website {url}")
         for _ in range(retry):
             try:
                 self.driver.get(url)
