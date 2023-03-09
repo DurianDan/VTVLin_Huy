@@ -1,0 +1,536 @@
+5856-WARNING-There isn't any running driver to quit()
+5856-WARNING-There isn't any running driver to quit()
+5856-INFO-====== WebDriver manager ======
+5856-INFO-Get LATEST chromedriver version for google-chrome 110.0.5481
+5856-INFO-Driver [/home/durian/.wdm/drivers/chromedriver/linux64/110.0.5481/chromedriver] found in cache
+5856-INFO-Trying to reah the website https://vtv.vn
+6485-WARNING-There isn't any running driver to quit()
+6485-WARNING-There isn't any running driver to quit()
+6485-INFO-====== WebDriver manager ======
+6485-INFO-Get LATEST chromedriver version for google-chrome 110.0.5481
+6485-INFO-Driver [/home/durian/.wdm/drivers/chromedriver/linux64/110.0.5481/chromedriver] found in cache
+6743-ERROR-There isn't any running driver
+6743-INFO-Driver will perform option: --incognito
+6743-INFO-Driver will have page_load_strategy: eager
+6743-WARNING-There isn't any running driver to quit()
+6743-WARNING-There isn't any running driver to quit()
+6743-INFO-====== WebDriver manager ======
+6743-INFO-Get LATEST chromedriver version for google-chrome 110.0.5481
+6743-INFO-Driver [/home/durian/.wdm/drivers/chromedriver/linux64/110.0.5481/chromedriver] found in cache
+6743-INFO-Trying to reah the website https://vtv.vn
+6743-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=là&page=1
+6743-INFO-Trying to get the element //*[@id="SearchSolr1"]/li[*]/h4/a
+6743-INFO-NumExpr defaulting to 8 threads.
+6743-INFO-Scraping search word là
+6743-INFO-Scraping page 1
+6743-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=là&page=1
+6743-INFO-Driver has quit, and the variable 'driver' is now of type 'int', containing value 0
+6743-WARNING-Reopening driver for the 0 time(s)
+6743-WARNING-There isn't any running driver to quit()
+6743-WARNING-There isn't any running driver to quit()
+6743-INFO-====== WebDriver manager ======
+6743-INFO-Get LATEST chromedriver version for google-chrome 110.0.5481
+6743-INFO-Driver [/home/durian/.wdm/drivers/chromedriver/linux64/110.0.5481/chromedriver] found in cache
+6743-ERROR-Retrying getting element for the 1 time(s), while handling whis error :Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=110.0.5481.96)
+Stacktrace:
+#0 0x560b0a211d93 <unknown>
+#1 0x560b09fe02d7 <unknown>
+#2 0x560b09fd815d <unknown>
+#3 0x560b09fcb182 <unknown>
+#4 0x560b09fcc8cb <unknown>
+#5 0x560b09fcb57f <unknown>
+#6 0x560b09fca5bb <unknown>
+#7 0x560b09fca404 <unknown>
+#8 0x560b09fc8ee2 <unknown>
+#9 0x560b09fc950d <unknown>
+#10 0x560b09fe2158 <unknown>
+#11 0x560b0a058cc5 <unknown>
+#12 0x560b0a0405f2 <unknown>
+#13 0x560b0a058619 <unknown>
+#14 0x560b0a040353 <unknown>
+#15 0x560b0a00fe40 <unknown>
+#16 0x560b0a011038 <unknown>
+#17 0x560b0a2658be <unknown>
+#18 0x560b0a2698f0 <unknown>
+#19 0x560b0a249f90 <unknown>
+#20 0x560b0a26ab7d <unknown>
+#21 0x560b0a23b578 <unknown>
+#22 0x560b0a28f348 <unknown>
+#23 0x560b0a28f4d6 <unknown>
+#24 0x560b0a2a9341 <unknown>
+#25 0x7ffae4c94b43 <unknown>
+
+12340-ERROR-There isn't any running driver
+12340-INFO-Driver will perform option: --incognito
+12340-INFO-Driver will have page_load_strategy: eager
+12340-WARNING-There isn't any running driver to quit()
+12340-WARNING-There isn't any running driver to quit()
+12340-INFO-====== WebDriver manager ======
+12340-INFO-Get LATEST chromedriver version for google-chrome 110.0.5481
+12340-INFO-Driver [/home/durian/.wdm/drivers/chromedriver/linux64/110.0.5481/chromedriver] found in cache
+12340-INFO-Scraping search word là
+12340-INFO-Scraping page 1
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=là&page=1
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 2
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=là&page=2
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 3
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=là&page=3
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 4
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=là&page=4
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 5
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=là&page=5
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 6
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=là&page=6
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 7
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=là&page=7
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 8
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=là&page=8
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 9
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=là&page=9
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 10
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=là&page=10
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 11
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=là&page=11
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 12
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=là&page=12
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 13
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=là&page=13
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 14
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=là&page=14
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 15
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=là&page=15
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 16
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=là&page=16
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 17
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=là&page=17
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 18
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=là&page=18
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 19
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=là&page=19
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 20
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=là&page=20
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 21
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=là&page=21
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 22
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=là&page=22
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 23
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=là&page=23
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 24
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=là&page=24
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 25
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=là&page=25
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 26
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=là&page=26
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 27
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=là&page=27
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 28
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=là&page=28
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 29
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=là&page=29
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 30
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=là&page=30
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 31
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=là&page=31
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 32
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=là&page=32
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 33
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=là&page=33
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 34
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=là&page=34
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 35
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=là&page=35
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 36
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=là&page=36
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 37
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=là&page=37
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 38
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=là&page=38
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 39
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=là&page=39
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 40
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=là&page=40
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 41
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=là&page=41
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 42
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=là&page=42
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 43
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=là&page=43
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 44
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=là&page=44
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 45
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=là&page=45
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 46
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=là&page=46
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 47
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=là&page=47
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 48
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=là&page=48
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 49
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=là&page=49
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 50
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=là&page=50
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 51
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=là&page=51
+12340-INFO-Getting articles info
+12340-INFO-Done scraping article from search word là
+12340-INFO-Scraping search word và
+12340-INFO-Scraping page 1
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=và&page=1
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 2
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=và&page=2
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 3
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=và&page=3
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 4
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=và&page=4
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 5
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=và&page=5
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 6
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=và&page=6
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 7
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=và&page=7
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 8
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=và&page=8
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 9
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=và&page=9
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 10
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=và&page=10
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 11
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=và&page=11
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 12
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=và&page=12
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 13
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=và&page=13
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 14
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=và&page=14
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 15
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=và&page=15
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 16
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=và&page=16
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 17
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=và&page=17
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 18
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=và&page=18
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 19
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=và&page=19
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 20
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=và&page=20
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 21
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=và&page=21
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 22
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=và&page=22
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 23
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=và&page=23
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 24
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=và&page=24
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 25
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=và&page=25
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 26
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=và&page=26
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 27
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=và&page=27
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 28
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=và&page=28
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 29
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=và&page=29
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 30
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=và&page=30
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 31
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=và&page=31
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 32
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=và&page=32
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 33
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=và&page=33
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 34
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=và&page=34
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 35
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=và&page=35
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 36
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=và&page=36
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 37
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=và&page=37
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 38
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=và&page=38
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 39
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=và&page=39
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 40
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=và&page=40
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 41
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=và&page=41
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 42
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=và&page=42
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 43
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=và&page=43
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 44
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=và&page=44
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 45
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=và&page=45
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 46
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=và&page=46
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 47
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=và&page=47
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 48
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=và&page=48
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 49
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=và&page=49
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 50
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=và&page=50
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 51
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=và&page=51
+12340-INFO-Getting articles info
+12340-INFO-Done scraping article from search word và
+12340-INFO-Scraping search word không
+12340-INFO-Scraping page 1
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=không&page=1
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 2
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=không&page=2
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 3
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=không&page=3
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 4
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=không&page=4
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 5
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=không&page=5
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 6
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=không&page=6
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 7
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=không&page=7
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 8
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=không&page=8
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 9
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=không&page=9
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 10
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=không&page=10
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 11
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=không&page=11
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 12
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=không&page=12
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 13
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=không&page=13
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 14
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=không&page=14
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 15
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=không&page=15
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 16
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=không&page=16
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 17
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=không&page=17
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 18
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=không&page=18
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 19
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=không&page=19
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 20
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=không&page=20
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 21
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=không&page=21
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 22
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=không&page=22
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 23
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=không&page=23
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 24
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=không&page=24
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 25
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=không&page=25
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 26
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=không&page=26
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 27
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=không&page=27
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 28
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=không&page=28
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 29
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=không&page=29
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 30
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=không&page=30
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 31
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=không&page=31
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 32
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=không&page=32
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 33
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=không&page=33
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 34
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=không&page=34
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 35
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=không&page=35
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 36
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=không&page=36
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 37
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=không&page=37
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 38
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=không&page=38
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 39
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=không&page=39
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 40
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=không&page=40
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 41
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=không&page=41
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 42
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=không&page=42
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 43
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=không&page=43
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 44
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=không&page=44
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 45
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=không&page=45
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 46
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=không&page=46
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 47
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=không&page=47
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 48
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=không&page=48
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 49
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=không&page=49
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 50
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=không&page=50
+12340-INFO-Getting articles info
+12340-INFO-Scraping page 51
+12340-INFO-Trying to reah the website https://vtv.vn/tim-kiem.htm?keywords=không&page=51
+12340-INFO-Getting articles info
+12340-INFO-Done scraping article from search word không
