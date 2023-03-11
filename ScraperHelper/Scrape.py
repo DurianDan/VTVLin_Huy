@@ -5,6 +5,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.service import Service
 
 # type casting in the function
+from typing import List
 from selenium.webdriver.remote.webelement import WebElement
 from selenium.webdriver.chrome.webdriver import WebDriver 
 
@@ -15,7 +16,6 @@ from urllib3.exceptions import NewConnectionError, MaxRetryError
 
 # logging
 from .Debug import LoggingQuickSetup,logging
-
 
 #change VPN
 from .VPN import VPN_helper
@@ -76,13 +76,13 @@ class seleniumHelper():
         maximize : maximize window or stay in normal window\n
         timeout : set limit to the time spent loading a page, raise error after timeout
         '''
-        if type(self.driver) != WebDriver:
+        if not self.checkDriver()["driverExist"]:
             raise ValueError("There aren't any running-driver to maximize window or to set timeout\nYou can initialize diver using: normalCreateDriver() or forceCreateDriver()")
         if maximize:
-            logging.info()
             self.driver.maximize_window()
-        if (type(timeout) == int and timeout > 0):
-            self.driver.set_page_load_timeout (timeout)
+            logging.info("Maximizied window")
+        if type(timeout) == int and timeout > 0:
+            self.driver.set_page_load_timeout(timeout)
 
     def quitRunningDriver(self):
         '''
@@ -155,7 +155,8 @@ class driverHelper(seleniumHelper):
                      element_as_finder:WebElement | None = None,
                      retry:int=10,
                      retry_interval:int=1,
-                     find_element_message:str|None=None
+                     find_element_message:str|None=None,
+                     try_refresh_before_retry:bool=False
                      ):
         '''
         Retry until getting the element\n
@@ -175,20 +176,18 @@ class driverHelper(seleniumHelper):
 
         for _ in range(retry):
             try:
-                if type(element_as_finder) == WebElement:
+                if element_as_finder == WebElement:
                     return element_as_finder.find_element(by=by, value=element_string)
                 else:
                     return self.driver.find_element(by=by, value=element_string)
-                
             except self.element_exception as err:
                 last_err = err
+                if try_refresh_before_retry: self.driver.refresh()
                 pass
-            except self.driver_exception as err:
+            except self.driver_exception + self.network_exceptionas as err:
                 last_err = err
-                self.reopenDriver(reconnect_vpn=False,retry_count=retry_record)
-            except self.network_exception as err:
-                last_err = err
-                self.reopenDriver(reconnect_vpn=True,retry_count=retry_record)
+                if try_refresh_before_retry: self.driver.refresh()
+                else: self.reopenDriver(reconnect_vpn=False,retry_count=retry_record)
             retry_record += 1
             logging.error(f"Retrying getting element for the {retry_record} time(s), while handling this error :{last_err}")
             time.sleep(retry_interval)
@@ -199,7 +198,8 @@ class driverHelper(seleniumHelper):
             url:str,
             try_refresh_before_retry:bool=False,
             retry:int=4,
-            retry_interval: int=0
+            retry_interval: int=0,
+            error_message_in_page: List[str]|None =None
             ):
         '''
         Retry until can access the desired `url`\n
@@ -217,6 +217,16 @@ class driverHelper(seleniumHelper):
         for _ in range(retry):
             try:
                 self.driver.get(url)
+                if error_message_in_page:
+                    # find if any of the parsed error_message_in_page...
+                    # ...exist in page_source
+                    error_message_exist = any([
+                        mes in self.driver.page_source
+                        for mes in error_message_in_page
+                    ])
+                    if error_message_exist:
+                        self.reopenDriver(reconnect_vpn=True,retry_count=retry_record)
+                        continue
                 return
             except self.driver_exception + self.network_exception as err:
                 last_err = err
