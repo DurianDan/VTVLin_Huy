@@ -154,7 +154,7 @@ class driverHelper(seleniumHelper):
                      element_string:str,
                      element_as_finder:WebElement | None = None,
                      retry:int=10,
-                     retry_interval:int=1,
+                     retry_interval:int|str=1,
                      find_element_message:str|None=None,
                      try_refresh_before_retry:bool=False
                      ):
@@ -165,16 +165,16 @@ class driverHelper(seleniumHelper):
         `retry` : number of retries\n
         `element_as_finder` : using an element to find sub-element, instead of driver\n
         `retry_interval` : Seconds between each retry\n
+            if `retry_interval` receive `incremental`, increase second wait after each retry 
         if `vpn_provider` is not empty (empty by default), `forceFindElement()` will change vpn after each retry   
         '''
         self.checkDriver()["driverExist"]
-        
-        retry_record = 0
+
         last_err = ""
         if find_element_message:
             logging.info(f"Trying to get the element {element_string}")
 
-        for _ in range(retry):
+        for i in range(retry):
             try:
                 if element_as_finder == WebElement:
                     return element_as_finder.find_element(by=by, value=element_string)
@@ -187,11 +187,13 @@ class driverHelper(seleniumHelper):
             except self.driver_exception + self.network_exceptionas as err:
                 last_err = err
                 if try_refresh_before_retry: self.driver.refresh()
-                else: self.reopenDriver(reconnect_vpn=False,retry_count=retry_record)
-            retry_record += 1
-            logging.error(f"Retrying getting element for the {retry_record} time(s), while handling this error :{last_err}")
-            time.sleep(retry_interval)
-        raise ValueError(f"Cant find the element after {retry_record} retries, last error was {last_err}")
+                else: self.reopenDriver(reconnect_vpn=False,retry_count=i)
+            logging.error(f"Retrying getting element for the {i} time(s), while handling this error :{last_err}")
+            if retry_interval == "incremental":
+                time.sleep(i)
+            elif type(retry_interval) == int:
+                time.sleep(retry_interval)
+        raise ValueError(f"Cant find the element after {i} retries, last error was {last_err}")
 
     def forceGet(
             self,

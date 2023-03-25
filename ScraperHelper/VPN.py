@@ -11,7 +11,9 @@ class VPN_helper():
     def autoConnect(self,ouput=True):
         if self.provider == "nordvpn":
             connect_handle = self.NordVPNconnect(capture_output=ouput)
-            return formatVPNmessage(message=connect_handle, vpn_provider=self.provider)
+            return formatVPNmessage(message=connect_handle,
+                                    vpn_provider=self.provider
+                                    ).autoFormat()
 
     def NordVPNconnect(self,
                        capture_output=True):
